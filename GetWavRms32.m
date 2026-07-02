@@ -42,7 +42,7 @@
 
 clf
 
-scriptVers = "GetWavRms 3.1";
+scriptVers = "GetWavRms 3.2";
 logFile = 'GetWavRmsLog.txt';
 
 diary off
