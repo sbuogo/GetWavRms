@@ -3,7 +3,7 @@ GetWavRms
 Matlab (R) script to obtain RMS values of audio waveforms contained in WAV format files.
 
 Originally designed to be used for calibration of digital audio recorders by comparison with a reference device, 
-using a gated pulse-echo technique.
+using a gated pulse-echo technique to reproduce free-field conditions.
 To this aim, the script accepts either one (H, recorder under test) or two (H and Ref, reference recorder) 
 files in WAV format, sequentially takes selected portions containing one or more repeat pulse(s) 
 with each frequency, optionally filters each portion (high-pass or band-pass), finds cross-correlation peaks with 
